@@ -1,9 +1,9 @@
 # NAME: Twitter
-# UPDATED: 2026-03
+# UPDATED: 2026-04
 payload:
+  # X / Twitter
   - DOMAIN-SUFFIX,ads-twitter.com
   - DOMAIN-SUFFIX,cms-twdigitalassets.com
-  - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,periscope.tv
   - DOMAIN-SUFFIX,pscp.tv
   - DOMAIN-SUFFIX,t.co
@@ -27,10 +27,13 @@ payload:
   - DOMAIN-SUFFIX,twvid.com
   - DOMAIN-SUFFIX,vine.co
   - DOMAIN-SUFFIX,x.com
+
+  # Grok / xAI
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN,accounts.x.ai
+
+  # Keywords
   - DOMAIN-KEYWORD,twitter
-  - IP-CIDR,192.133.76.0/22
-  - IP-CIDR,199.59.148.0/22
-  - IP-CIDR,199.96.56.0/21
-  - IP-CIDR,202.160.128.0/22
-  - IP-CIDR,209.237.192.0/19
-  - IP-CIDR,69.195.160.0/19
+  - DOMAIN-KEYWORD,twttr
+  - DOMAIN-KEYWORD,grok
